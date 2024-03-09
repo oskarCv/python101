@@ -1,5 +1,5 @@
-# The conjecture asks whether repeating two simple arithmetic operations 
-# will eventually transform every positive integer into 1
+# This is a Collatz Conjecture program;
+# No matter the input number it will always become 1.
 number = int(input('Enter a number: '))
 hops = 0
 while number != 1:
